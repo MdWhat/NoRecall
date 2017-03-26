@@ -13,13 +13,6 @@
 #import <objc/runtime.h>
 #import <JRSwizzle.h>
 #import "WeChatPluginHeader.h"
-#import "MMSnsTimeLineRequest.h"
-#import "MMSnsTimeLineResponse.h"
-#import "MMSnsObject.h"
-#import "MMStatus.h"
-#import "MMStatusMediaObject.h"
-#import "MMStatusImageMediaObject.h"
-#import "MMStatusLinkMediaObject.h"
 
 #define WeChatService(classname) (classname *)[[CBGetClass(MMServiceCenter) defaultCenter] getService:CBGetClass(classname)]
 
